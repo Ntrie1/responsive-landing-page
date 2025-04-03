@@ -1,11 +1,8 @@
+import { Layout } from "./components/Layout"
 
 function App() {
 
-  return (
-    <>
-    <h1>hi</h1>
-    </>
-  )
+  return <Layout title='EdgeAI' children={undefined} />
 }
 
 export default App
