@@ -8,12 +8,13 @@ const navItems = [
     { herf: "#services", text: 'Services' },
     { herf: "#about-us", text: 'About Us' },
     { herf: "#features", text: 'Features' },
-
-]
+];
 
 
 
 export const Navbar = () => {
+    const { toggleTheme, theme } = useThemeStore();
+
     return (
         <header className="absolute inset-x-0 top-0 z-50 py-6">
             <Container>
