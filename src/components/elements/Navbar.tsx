@@ -1,6 +1,7 @@
 import { Container } from "../shared/Container"
 import icon from "../../assets/icon.svg"
 import { NavItem } from "../shared/NavItem"
+import { BtnLink } from "../shared/BtnLink"
 
 const navItems = [
     { herf: "#", text: 'Home' },
@@ -38,7 +39,10 @@ export const Navbar = () => {
                                 <NavItem href={item.herf} text={item.text} key={key} />
                             ))}
                         </ul>
-
+                        <div className="lg:min-w-max flex items-center sm:w-max w-full pb-6 
+                        lg:pb-0 border-b border-box-border lg:border-0 px-6 lg:px-0">
+                            <BtnLink text="Get Started" href="#cta" className="s" />
+                        </div>
                     </div>
                 </nav>
             </Container>
