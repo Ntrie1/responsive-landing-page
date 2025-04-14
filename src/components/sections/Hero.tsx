@@ -1,6 +1,7 @@
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
+import { Numbers } from "./Numbers";
 
 export const Hero = () => {
     return <section className="relative pt-32 lg:pt-36">
@@ -83,5 +84,6 @@ export const Hero = () => {
                 />
             </div>
         </Container>
+        <Numbers />
     </section>;
 }
