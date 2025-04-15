@@ -1,4 +1,4 @@
-import { services } from "../../utils/services"
+import { services } from "../../utils/services-data"
 import { Service } from "../cards/Service"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
@@ -16,7 +16,7 @@ export const Services = () => {
                     </Paragraph>
                 </div>
 
-                <div>
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
                     {services.map((service, key) => (
                         <Service
                             key={key}
