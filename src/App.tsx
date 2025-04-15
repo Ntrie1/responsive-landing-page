@@ -5,11 +5,12 @@ import { Hero } from "./components/sections/Hero"
 function App() {
 
   return (
-  <Layout
-    title='EdgeAI'>
-    <Hero />
-    <Brands />
-  </Layout>)
+    <Layout
+      title='EdgeAI'>
+      <Hero />
+      <Brands />
+      <Services />
+    </Layout>)
 }
 
 export default App
