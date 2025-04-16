@@ -1,3 +1,4 @@
+import { Info } from "../cards/Info";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
@@ -27,7 +28,9 @@ export const AboutUs = () => {
                     </Paragraph>
 
                     <div>
-                        
+                        <Info title="Misson" description="lorem">
+                            <svg></svg>
+                        </Info>
                     </div>
                 </div>
             </Container>
