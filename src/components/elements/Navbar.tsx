@@ -8,7 +8,7 @@ const navItems = [
     { herf: "#", text: 'Home' },
     { herf: "#services", text: 'Services' },
     { herf: "#about-us", text: 'About Us' },
-    { herf: "#features", text: 'Features' },
+    { herf: "#Pricing", text: 'Pricing' },
 ];
 
 
