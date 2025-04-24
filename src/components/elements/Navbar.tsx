@@ -4,7 +4,7 @@ import { NavItem } from "../shared/NavItem"
 import { BtnLink } from "../shared/BtnLink"
 import { useThemeStore } from "../../store/ThemeStore";
 
-const navItems = [
+export const navItems = [
     { herf: "#", text: 'Home' },
     { herf: "#services", text: 'Services' },
     { herf: "#about-us", text: 'About Us' },
